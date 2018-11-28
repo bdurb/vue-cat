@@ -1,5 +1,7 @@
 # vue-cat
 
+async app, utalizing the random cat api.
+
 ## Project setup
 ```
 npm install
