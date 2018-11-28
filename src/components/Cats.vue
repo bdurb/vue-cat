@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='main'>
     <h1>Lets Get some Cats</h1>
     <button v-on:click="fetchCats">New Cat</button><br/>
     <img :src="cats" />
@@ -28,7 +28,12 @@ export default {
 </script>
 
 <style scoped>
-
+.main {
+padding-top: 10%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 </style>
 
 
