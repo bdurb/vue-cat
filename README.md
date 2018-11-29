@@ -1,6 +1,7 @@
 # vue-cat
 
 async app, utalizing the random cat api.
+after running npm run serve, simply click the new cat button.
 
 ## Project setup
 ```
